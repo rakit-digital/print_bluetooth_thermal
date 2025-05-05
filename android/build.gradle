@@ -25,9 +25,10 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace = "app.web.groons.print_bluetooth_thermal"
-    }
+    // if (project.android.hasProperty("namespace")) {
+    //     namespace = "app.web.groons.print_bluetooth_thermal"
+    // }
+    namespace = "app.web.groons.print_bluetooth_thermal"
 
     compileSdk = 34
 
